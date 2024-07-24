@@ -1,0 +1,52 @@
+.card-form-widget {
+    
+}
+
+.card-system-icons {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+    margin: 0;
+    padding-left: 0;
+    gap: 10px;
+}
+
+.card-system-item {
+    height: 30px;
+    width: 50px;
+}
+
+.grey {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.control {
+    margin-top: 20px;
+} 
+
+.input {
+    box-sizing: border-box;
+
+    border-radius: 5px;
+    border-color: grey;
+
+    width: 250px;
+    height: 40px;
+    padding: 5px 10px;
+
+}
+
+.submit {
+    box-sizing: border-box;
+
+    background-color: rgb(12, 181, 12);
+    color: white;
+
+    border-radius: 5px;
+    border-style: none;
+
+    height: 40px;
+    padding: 5px 10px;
+}
