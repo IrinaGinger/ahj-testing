@@ -26,3 +26,7 @@ test.each(numbers)('card system should be defined', (item) => {
 test('card system should be undefined', () => {
     expect(paySystem("1", cardSystems)).toEqual(undefined);
 });
+
+test('if empty value, card system should be undefined', () => {
+    expect(paySystem(null, cardSystems)).toEqual(undefined);
+});
